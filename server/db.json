@@ -1,0 +1,46 @@
+{
+  "employees": [
+    {
+      "name": "Gabriel Stokes",
+      "phone": "4524234134",
+      "skill": "UX Developer",
+      "notes": "paling jago UX",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Big J",
+      "phone": "5674754",
+      "skill": "Software Developer",
+      "notes": "paling jago fullstack"
+    },
+    {
+      "name": "Rudriger 2",
+      "phone": "87685687",
+      "skill": "UX Developer",
+      "notes": "paling jago UX",
+      "id": 4
+    },
+    {
+      "name": "Alex 2",
+      "phone": "63634523",
+      "skill": "Java Developer",
+      "notes": "paling jago java",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Marco",
+      "phone": "74563453",
+      "skill": "Angular Developer",
+      "notes": "paling jago angular"
+    },
+    {
+      "name": "Anelka",
+      "phone": "42342312",
+      "skill": "Angular Developer",
+      "notes": "paling jago angular",
+      "id": 7
+    }
+  ]
+}

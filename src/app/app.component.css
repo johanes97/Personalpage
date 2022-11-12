@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+}
+
+.bg-blue{
+    background-color: blue;
+    color: wheat;
+}
+  
+.bg-red{
+    background-color: red;
+    color: wheat;
+}
+
+.bg-yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.bg-light-blue{
+    background-color: lightblue;
+    color: wheat;
+}
+
+.bg-light-gray{
+    background-color: lightgray;
+    color: wheat;
+}
+  
+  

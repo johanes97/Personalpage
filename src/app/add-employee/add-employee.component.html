@@ -1,0 +1,26 @@
+<h3>Add Employee</h3>
+
+<div *ngIf="message" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Successfully Added Employee</strong>
+    <button (click)="removeMessage()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<form [formGroup]="addEmployee" (ngSubmit)="SaveData()">
+    <div class="mb-3">
+      <label class="form-label">Name</label>
+      <input type="text" class="form-control" placeholder="Enter Name" formControlName="name">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input type="text" class="form-control" placeholder="Enter Phone" formControlName="phone">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Skill</label>
+        <input type="text" class="form-control" placeholder="Enter Skill" formControlName="skill">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Notes</label>
+        <input type="text" class="form-control" placeholder="Enter Notes" formControlName="notes">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

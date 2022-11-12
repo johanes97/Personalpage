@@ -1,0 +1,14 @@
+<h3>Employee List</h3>
+<div class="row row-cols-1 row-cols-md-5 g-4">
+    <div *ngFor="let item of employeeData" class="col">     
+      <div class="card bg-yellow">
+        <img src="../assets/spacedog.png" class="card-img-top">
+        <div class="card-body">
+            <h5><p class="card-text">{{item.name}}</p></h5>
+            <h6><p class="card-text">{{item.phone}}</p></h6>
+            <p class="card-text">{{item.skill}}</p>
+            <p class="card-text">{{item.notes}}</p>
+        </div>
+      </div>
+    </div>
+</div>
